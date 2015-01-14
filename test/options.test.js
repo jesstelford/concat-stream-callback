@@ -38,4 +38,15 @@ describe('Options', function() {
 
   });
 
+  describe('readStream', function() {
+
+    it('is optional', function() {
+
+      // Simply checking it doesn't throw an error
+      concatStreamCallback(function(err, result) {});
+
+    });
+
+  });
+
 });
