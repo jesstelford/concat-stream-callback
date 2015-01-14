@@ -41,4 +41,7 @@ module.exports = function(readStream, options, callback) {
     readStream.pipe(concatStreamWritable);
   }
 
+  // Maintain the behaviour of concat-stream and return the result
+  return concatStreamWritable;
+
 }
