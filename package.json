@@ -1,6 +1,6 @@
 {
   "name": "concat-stream-callback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Callback wrapper for concat-stream providing errors.",
   "main": "index.js",
   "scripts": {
